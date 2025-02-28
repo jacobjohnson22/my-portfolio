@@ -40,7 +40,7 @@ footer button{
 }
 
 footer p{
-  font-size: clamp(8px, 0.625vw, 16px);
+  font-size: clamp(12px, 0.625vw, 16px); /*12px, 12px, 20px on a 1920px screen*/
   color: white;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
