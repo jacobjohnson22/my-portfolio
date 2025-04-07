@@ -1,0 +1,37 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10em 0 2em 0;
+}
+
+footer h2{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+footer #button-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    gap: 2ch;
+}
+
+footer #button-container{
+    margin-bottom: 6em;
+}
+
+footer #button-container button{
+    display: flex;
+    gap: 1ch;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 0.5ch 1ch;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+footer #button-container button:hover{
+    background-color: rgba(255, 255, 255, 0.16);
+}

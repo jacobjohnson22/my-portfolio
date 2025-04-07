@@ -2,26 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
+    color: white;
     text-decoration: none;
-    border: none;
+    list-style-type: none;
 }
 
 body{
-    background-color: #1d1d1d;
+    background-color: black;
 }
 
-#wrapper {
-    width: 80%;
-    margin: 0 auto;
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 10%;
 }
 
-.clear{
-    clear: both;
+svg{
+    fill: #3c72cf;
 }
 
-@media (width < 600px) {
-    #wrapper{
-        width: 90%;
+button{
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5ch;
+}
+
+@media(width <= 60rem){
+    #grid-container{
+        margin: 0 5%;
+    }
+}
+
+@media(width <= 48rem){
+    #grid-container{
+        margin: 0;
     }
 }

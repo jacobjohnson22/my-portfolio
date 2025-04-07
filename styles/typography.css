@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --heading-font: "Inter", sans-serif;
+    --body-font: "Inter", sans-serif;
+    --blue: #3c72cf;
+    --gray: #8F9094;
+    --white: white;
+    --fs-xxs: clamp(0.38rem, 0.07vi + 0.37rem, 0.42rem);
+    --fs-xs: clamp(0.48rem, 0.15vi + 0.44rem, 0.56rem);
+    --fs-sm: clamp(0.6rem, 0.27vi + 0.53rem, 0.75rem);
+    --fs-base: clamp(0.75rem, 0.45vi + 0.64rem, 1rem);
+    --fs-md: clamp(0.94rem, 0.72vi + 0.76rem, 1.33rem);
+    --fs-lg: clamp(1.17rem, 1.1vi + 0.9rem, 1.78rem);
+    --fs-xl: clamp(1.46rem, 1.64vi + 1.05rem, 2.37rem);
+    --fs-xxl: clamp(1.83rem, 2.41vi + 1.23rem, 3.16rem);
+    --fs-xxxl: clamp(2.29rem, 3.49vi + 1.42rem, 4.21rem);
+    --fs-xxxxl: clamp(2.86rem, 5vi + 1.61rem, 5.61rem);
+    --fs-xxxxxl: clamp(3.58rem, 7.09vi + 1.8rem, 7.48rem);
+}
+
+h1{
+    font-family: var(--heading-font);
+    font-size: var(--fs-xl);
+}
+
+h2{
+    font-family: var(--heading-font);
+    font-size: var(--fs-lg);
+}
+
+h3{
+    font-family: var(--heading-font);
+    font-size: var(--fs-med);
+}
+
+h4{
+    font-family: var(--heading-font);
+    font-size: var(--fs-base);
+}
+
+#navigation,footer button{
+    font-family: var(--heading-font);
+    font-size: var(--fs-base);
+}
+
+p{
+    font-family: var(--body-font);
+    font-size: var(--fs-base);
+}
+
+button{
+    font-weight: 500;
+}
+
+.blue-text{
+    color: var(--blue);
+}
+
+.gray-text{
+    color: var(--gray);
+}
+
+.white-text{
+    color: var(--white);
+}
+
+.heading-big{
+    font-size: var(--fs-xxxxl);
+}
+
+.small-text{
+    font-size: var(--fs-sm)
+}

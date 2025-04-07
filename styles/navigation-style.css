@@ -1,0 +1,45 @@
+#navigation{
+    border-bottom: 1px solid rgb(30, 32, 41);
+    padding: 0.5em 0;
+    margin-bottom: 5em;
+}
+
+#nav-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+#navigation img{
+    height: 3em;
+}
+
+#navigation #nav-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#navigation #nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 1ch;
+    align-items: center;
+}
+
+#navigation button{
+    background-color: transparent;
+    transition: all 0.3s ease;
+    padding: 0.5em 1ch;
+}
+
+#navigation button:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+#body-grid,#nav-grid-container{
+    padding: 0 3%;
+}
